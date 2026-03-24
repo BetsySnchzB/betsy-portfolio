@@ -1,0 +1,74 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    background-color: #0f172a;
+    color: #f1f5f9;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: #e2e8f0;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    color: #94a3b8;
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  /* Project Cards */
+  .project {
+    background-color: #1e293b;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .project h3 {
+    color: #38bdf8;
+  }
+  
+  /* Contact Section */
+  #contact a {
+    color: #38bdf8;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    color: #64748b;
+  }  
